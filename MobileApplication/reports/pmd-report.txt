@@ -1,0 +1,255 @@
+src/com/cg/mobiles/controller/MobileController.java:19:	headerCommentRequirement Required
+src/com/cg/mobiles/controller/MobileController.java:20:	fieldCommentRequirement Required
+src/com/cg/mobiles/controller/MobileController.java:21:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/controller/MobileController.java:21:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/controller/MobileController.java:21:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/controller/MobileController.java:25:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/controller/MobileController.java:25:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/controller/MobileController.java:25:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/controller/MobileController.java:26:	Found 'DU'-anomaly for variable 'mser' (lines '26'-'75').
+src/com/cg/mobiles/controller/MobileController.java:26:	Local variable 'mser' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:28:	Local variable 'url' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:29:	Found 'DD'-anomaly for variable 'targetUrl' (lines '29'-'45').
+src/com/cg/mobiles/controller/MobileController.java:29:	Found 'DD'-anomaly for variable 'targetUrl' (lines '29'-'56').
+src/com/cg/mobiles/controller/MobileController.java:29:	Found 'DD'-anomaly for variable 'targetUrl' (lines '29'-'66').
+src/com/cg/mobiles/controller/MobileController.java:30:	Position literals first in String comparisons
+src/com/cg/mobiles/controller/MobileController.java:30:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:31:	Local variable 'mname' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:32:	Local variable 'price' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:33:	Local variable 'quantity' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:35:	Local variable 'mobile' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:38:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:41:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:43:	Local variable 'message' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:45:	Found 'DD'-anomaly for variable 'targetUrl' (lines '45'-'49').
+src/com/cg/mobiles/controller/MobileController.java:50:	Position literals first in String comparisons
+src/com/cg/mobiles/controller/MobileController.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:51:	Local variable 'midStr' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:52:	Local variable 'mid' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:54:	Local variable 'mobile' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:54:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:56:	Found 'DD'-anomaly for variable 'targetUrl' (lines '56'-'60').
+src/com/cg/mobiles/controller/MobileController.java:58:	Local variable 'message' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:58:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:62:	Position literals first in String comparisons
+src/com/cg/mobiles/controller/MobileController.java:62:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:64:	Local variable 'mlist' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:64:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:66:	Found 'DD'-anomaly for variable 'targetUrl' (lines '66'-'70').
+src/com/cg/mobiles/controller/MobileController.java:68:	Local variable 'message' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:68:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/controller/MobileController.java:73:	Local variable 'disp' could be declared final
+src/com/cg/mobiles/controller/MobileController.java:74:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/DBConnection.java:12:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/cg/mobiles/dao/DBConnection.java:12:	headerCommentRequirement Required
+src/com/cg/mobiles/dao/DBConnection.java:13:	fieldCommentRequirement Required
+src/com/cg/mobiles/dao/DBConnection.java:14:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dao/DBConnection.java:15:	Singleton is not thread safe
+src/com/cg/mobiles/dao/DBConnection.java:17:	Avoid variables with short names like ic
+src/com/cg/mobiles/dao/DBConnection.java:17:	Local variable 'ic' could be declared final
+src/com/cg/mobiles/dao/DBConnection.java:18:	Avoid variables with short names like ds
+src/com/cg/mobiles/dao/DBConnection.java:18:	Local variable 'ds' could be declared final
+src/com/cg/mobiles/dao/DBConnection.java:18:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/DBConnection.java:19:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/DBConnection.java:21:	New exception is thrown in catch block, original stack trace may be lost
+src/com/cg/mobiles/dao/DBConnection.java:22:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/DBConnection.java:24:	New exception is thrown in catch block, original stack trace may be lost
+src/com/cg/mobiles/dao/DBConnection.java:25:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDao.java:8:	headerCommentRequirement Required
+src/com/cg/mobiles/dao/MobileDao.java:9:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dao/MobileDao.java:10:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dao/MobileDao.java:11:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dao/MobileDaoImpl.java:14:	headerCommentRequirement Required
+src/com/cg/mobiles/dao/MobileDaoImpl.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/mobiles/dao/MobileDaoImpl.java:15:	Use explicit scoping instead of the default package private level
+src/com/cg/mobiles/dao/MobileDaoImpl.java:15:	fieldCommentRequirement Required
+src/com/cg/mobiles/dao/MobileDaoImpl.java:17:	Found 'DD'-anomaly for variable 'mid' (lines '17'-'24').
+src/com/cg/mobiles/dao/MobileDaoImpl.java:18:	Local variable 'sql' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:21:	Avoid variables with short names like st
+src/com/cg/mobiles/dao/MobileDaoImpl.java:21:	Ensure that resources like this Statement object are closed after use
+src/com/cg/mobiles/dao/MobileDaoImpl.java:21:	Local variable 'st' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:22:	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+src/com/cg/mobiles/dao/MobileDaoImpl.java:22:	Ensure that resources like this ResultSet object are closed after use
+src/com/cg/mobiles/dao/MobileDaoImpl.java:22:	Local variable 'rst' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:22:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:23:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:24:	Found 'DU'-anomaly for variable 'mid' (lines '24'-'30').
+src/com/cg/mobiles/dao/MobileDaoImpl.java:24:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:26:	New exception is thrown in catch block, original stack trace may be lost
+src/com/cg/mobiles/dao/MobileDaoImpl.java:27:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:33:	Parameter 'mobile' is not assigned and could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:33:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dao/MobileDaoImpl.java:35:	Local variable 'sql' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:38:	Local variable 'pst' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:39:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:41:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:45:	New exception is thrown in catch block, original stack trace may be lost
+src/com/cg/mobiles/dao/MobileDaoImpl.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:51:	Parameter 'mid' is not assigned and could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:51:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dao/MobileDaoImpl.java:52:	Found 'DD'-anomaly for variable 'mobile' (lines '52'-'60').
+src/com/cg/mobiles/dao/MobileDaoImpl.java:52:	Found 'DU'-anomaly for variable 'mobile' (lines '52'-'72').
+src/com/cg/mobiles/dao/MobileDaoImpl.java:53:	Local variable 'sql' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:56:	Local variable 'pst' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:58:	Ensure that resources like this ResultSet object are closed after use
+src/com/cg/mobiles/dao/MobileDaoImpl.java:58:	Local variable 'rst' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:69:	New exception is thrown in catch block, original stack trace may be lost
+src/com/cg/mobiles/dao/MobileDaoImpl.java:74:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dao/MobileDaoImpl.java:75:	Found 'DU'-anomaly for variable 'mlist' (lines '75'-'93').
+src/com/cg/mobiles/dao/MobileDaoImpl.java:75:	Local variable 'mlist' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:76:	Local variable 'sql' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:79:	Avoid variables with short names like st
+src/com/cg/mobiles/dao/MobileDaoImpl.java:79:	Ensure that resources like this Statement object are closed after use
+src/com/cg/mobiles/dao/MobileDaoImpl.java:79:	Local variable 'st' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:80:	Ensure that resources like this ResultSet object are closed after use
+src/com/cg/mobiles/dao/MobileDaoImpl.java:80:	Local variable 'rst' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:80:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:81:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:82:	Avoid instantiating new objects inside loops
+src/com/cg/mobiles/dao/MobileDaoImpl.java:82:	Avoid variables with short names like m
+src/com/cg/mobiles/dao/MobileDaoImpl.java:82:	Local variable 'm' could be declared final
+src/com/cg/mobiles/dao/MobileDaoImpl.java:83:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:84:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:85:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:86:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:87:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dao/MobileDaoImpl.java:90:	New exception is thrown in catch block, original stack trace may be lost
+src/com/cg/mobiles/dao/MobileDaoImpl.java:90:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/dto/Mobile.java:3:	headerCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:4:	fieldCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:5:	fieldCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:6:	fieldCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:7:	fieldCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:8:	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/cg/mobiles/dto/Mobile.java:8:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:11:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:14:	Parameter 'mobileid' is not assigned and could be declared final
+src/com/cg/mobiles/dto/Mobile.java:14:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:17:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:20:	Parameter 'mname' is not assigned and could be declared final
+src/com/cg/mobiles/dto/Mobile.java:20:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:23:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:26:	Parameter 'price' is not assigned and could be declared final
+src/com/cg/mobiles/dto/Mobile.java:26:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:29:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:32:	Parameter 'quantity' is not assigned and could be declared final
+src/com/cg/mobiles/dto/Mobile.java:32:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/dto/Mobile.java:36:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/exception/MobileException.java:3:	headerCommentRequirement Required
+src/com/cg/mobiles/exception/MobileException.java:5:	It is a good practice to call super() in a constructor
+src/com/cg/mobiles/exception/MobileException.java:5:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/exception/MobileException.java:9:	Parameter 'message' is not assigned and could be declared final
+src/com/cg/mobiles/exception/MobileException.java:9:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/exception/MobileException.java:14:	Parameter 'cause' is not assigned and could be declared final
+src/com/cg/mobiles/exception/MobileException.java:14:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/exception/MobileException.java:19:	Parameter 'cause' is not assigned and could be declared final
+src/com/cg/mobiles/exception/MobileException.java:19:	Parameter 'message' is not assigned and could be declared final
+src/com/cg/mobiles/exception/MobileException.java:19:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/exception/MobileException.java:24:	Parameter 'cause' is not assigned and could be declared final
+src/com/cg/mobiles/exception/MobileException.java:24:	Parameter 'message' is not assigned and could be declared final
+src/com/cg/mobiles/exception/MobileException.java:24:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/exception/MobileException.java:25:	Avoid excessively long variable names like writableStackTrace
+src/com/cg/mobiles/exception/MobileException.java:25:	Parameter 'enableSuppression' is not assigned and could be declared final
+src/com/cg/mobiles/exception/MobileException.java:25:	Parameter 'writableStackTrace' is not assigned and could be declared final
+src/com/cg/mobiles/service/MobileService.java:8:	headerCommentRequirement Required
+src/com/cg/mobiles/service/MobileService.java:9:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/service/MobileService.java:10:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/service/MobileService.java:11:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/service/MobileServiceImpl.java:10:	headerCommentRequirement Required
+src/com/cg/mobiles/service/MobileServiceImpl.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/mobiles/service/MobileServiceImpl.java:11:	Use explicit scoping instead of the default package private level
+src/com/cg/mobiles/service/MobileServiceImpl.java:11:	fieldCommentRequirement Required
+src/com/cg/mobiles/service/MobileServiceImpl.java:13:	Parameter 'mobile' is not assigned and could be declared final
+src/com/cg/mobiles/service/MobileServiceImpl.java:13:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/service/MobileServiceImpl.java:17:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/service/MobileServiceImpl.java:21:	Parameter 'mid' is not assigned and could be declared final
+src/com/cg/mobiles/service/MobileServiceImpl.java:21:	publicMethodCommentRequirement Required
+src/com/cg/mobiles/view/FailureServlet.java:14:	headerCommentRequirement Required
+src/com/cg/mobiles/view/FailureServlet.java:15:	fieldCommentRequirement Required
+src/com/cg/mobiles/view/FailureServlet.java:16:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/view/FailureServlet.java:16:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/view/FailureServlet.java:16:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/view/FailureServlet.java:19:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/view/FailureServlet.java:19:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/view/FailureServlet.java:19:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/view/FailureServlet.java:20:	Local variable 'errorMessage' could be declared final
+src/com/cg/mobiles/view/FailureServlet.java:21:	Local variable 'out' could be declared final
+src/com/cg/mobiles/view/FailureServlet.java:22:	Local variable 'disp' could be declared final
+src/com/cg/mobiles/view/FailureServlet.java:24:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/FailureServlet.java:26:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/FailureServlet.java:27:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/HeaderServlet.java:13:	headerCommentRequirement Required
+src/com/cg/mobiles/view/HeaderServlet.java:14:	fieldCommentRequirement Required
+src/com/cg/mobiles/view/HeaderServlet.java:15:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/view/HeaderServlet.java:15:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/view/HeaderServlet.java:15:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/view/HeaderServlet.java:19:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/view/HeaderServlet.java:19:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/view/HeaderServlet.java:19:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/view/HeaderServlet.java:20:	Local variable 'out' could be declared final
+src/com/cg/mobiles/view/HeaderServlet.java:22:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/MobileDisplayServlet.java:15:	headerCommentRequirement Required
+src/com/cg/mobiles/view/MobileDisplayServlet.java:16:	fieldCommentRequirement Required
+src/com/cg/mobiles/view/MobileDisplayServlet.java:17:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/view/MobileDisplayServlet.java:17:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/view/MobileDisplayServlet.java:17:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/view/MobileDisplayServlet.java:21:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/view/MobileDisplayServlet.java:21:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/view/MobileDisplayServlet.java:21:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/view/MobileDisplayServlet.java:22:	Local variable 'mobile' could be declared final
+src/com/cg/mobiles/view/MobileDisplayServlet.java:23:	Local variable 'out' could be declared final
+src/com/cg/mobiles/view/MobileDisplayServlet.java:25:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/MobileDisplayServlet.java:26:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/MobileDisplayServlet.java:26:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/MobileDisplayServlet.java:27:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/MobileDisplayServlet.java:27:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/MobileDisplayServlet.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/MobileDisplayServlet.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/MobileDisplayServlet.java:29:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/ShowAllServlet.java:16:	headerCommentRequirement Required
+src/com/cg/mobiles/view/ShowAllServlet.java:17:	fieldCommentRequirement Required
+src/com/cg/mobiles/view/ShowAllServlet.java:18:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/view/ShowAllServlet.java:18:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/view/ShowAllServlet.java:18:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/view/ShowAllServlet.java:21:	Found 'UR'-anomaly for variable 'm' (lines '21'-'28').
+src/com/cg/mobiles/view/ShowAllServlet.java:21:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/view/ShowAllServlet.java:21:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/view/ShowAllServlet.java:21:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/view/ShowAllServlet.java:22:	Local variable 'mlist' could be declared final
+src/com/cg/mobiles/view/ShowAllServlet.java:23:	Local variable 'out' could be declared final
+src/com/cg/mobiles/view/ShowAllServlet.java:25:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/ShowAllServlet.java:26:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/ShowAllServlet.java:27:	Local variable 'm' could be declared final
+src/com/cg/mobiles/view/ShowAllServlet.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/ShowAllServlet.java:29:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/ShowAllServlet.java:30:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/ShowAllServlet.java:32:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/ShowAllServlet.java:33:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/SuccessServlet.java:16:	headerCommentRequirement Required
+src/com/cg/mobiles/view/SuccessServlet.java:17:	fieldCommentRequirement Required
+src/com/cg/mobiles/view/SuccessServlet.java:18:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/view/SuccessServlet.java:18:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/view/SuccessServlet.java:18:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/view/SuccessServlet.java:22:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/mobiles/view/SuccessServlet.java:22:	Parameter 'response' is not assigned and could be declared final
+src/com/cg/mobiles/view/SuccessServlet.java:22:	protectedMethodCommentRequirement Required
+src/com/cg/mobiles/view/SuccessServlet.java:24:	Local variable 'mobile' could be declared final
+src/com/cg/mobiles/view/SuccessServlet.java:25:	Local variable 'out' could be declared final
+src/com/cg/mobiles/view/SuccessServlet.java:27:	Local variable 'disp' could be declared final
+src/com/cg/mobiles/view/SuccessServlet.java:29:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/SuccessServlet.java:30:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/SuccessServlet.java:31:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/SuccessServlet.java:31:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/SuccessServlet.java:32:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/SuccessServlet.java:32:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/SuccessServlet.java:33:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/SuccessServlet.java:33:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/SuccessServlet.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/SuccessServlet.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/mobiles/view/SuccessServlet.java:35:	Potential violation of Law of Demeter (object not created locally)

@@ -1,0 +1,62 @@
+Found a 11 line (73 tokens) duplication in the following files: 
+Starting at line 16 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\view\SuccessServlet.java
+Starting at line 15 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\view\MobileDisplayServlet.java
+
+public class SuccessServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doPost(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//Retriving attribute from request
+		Mobile mobile =(Mobile)request.getAttribute("mobile");
+		PrintWriter out = response.getWriter();
+		response.setContentType("text/html");
+=====================================================================
+Found a 7 line (47 tokens) duplication in the following files: 
+Starting at line 16 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\view\SuccessServlet.java
+Starting at line 16 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\view\ShowAllServlet.java
+Starting at line 15 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\view\MobileDisplayServlet.java
+Starting at line 13 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\view\HeaderServlet.java
+Starting at line 14 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\view\FailureServlet.java
+Starting at line 19 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\controller\MobileController.java
+
+public class SuccessServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doPost(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+=====================================================================
+Found a 6 line (28 tokens) duplication in the following files: 
+Starting at line 57 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\controller\MobileController.java
+Starting at line 67 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\controller\MobileController.java
+
+			} catch (MobileException e) {
+				String message = e.getMessage();
+				request.setAttribute("error", message);
+				targetUrl = "failure";
+			}
+		}else if(url.equals("/getAll")){
+=====================================================================
+Found a 5 line (27 tokens) duplication in the following files: 
+Starting at line 42 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\controller\MobileController.java
+Starting at line 57 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\controller\MobileController.java
+Starting at line 67 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\controller\MobileController.java
+
+			} catch (MobileException e) {
+				String message = e.getMessage();
+				request.setAttribute("error", message);
+				targetUrl = "failure";
+			}
+=====================================================================
+Found a 4 line (26 tokens) duplication in the following files: 
+Starting at line 19 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\dao\MobileDaoImpl.java
+Starting at line 77 of D:\Training\Module3\13DecPropel\MobileApplication\src\com\cg\mobiles\dao\MobileDaoImpl.java
+
+		conn = DBConnection.getConnection();
+		try {
+			Statement st = conn.createStatement();
+			ResultSet rst = st.executeQuery(sql);
