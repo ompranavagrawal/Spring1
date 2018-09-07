@@ -1,0 +1,61 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+	
+	<!-- <context:component-scan base-package="com.cg.anno" /> -->
+	
+	 
+	 <!--<bean id="address" class="com.cg.demo.Address"/>
+		<property name="addressLine" value="Hinjewadi"/>     setter Injection
+		<property name="city" value="Pune"/>
+	</bean>  -->
+	
+	<bean id="hBean" class="com.cg.demo.HelloBean" />       <!--  constructor Injection -->
+	<!-- <bean id="address1" class="com.cg.demo.Address">           works with byType-->
+	<!-- <bean id="address" class="com.cg.demo.Address">           works with byName name is same-->
+	<bean id="address" class="com.cg.demo.Address">
+
+		<constructor-arg index="0" value="Hinjewadi" />
+		<constructor-arg index="1" value="Pune" />
+
+	</bean>
+	
+	
+	<!-- <list id="addlist">
+		<bean class="com.cg.demo.Address">
+			<property name="addresssLine" value="Hinjewadi"/>
+			<property name="city" value="Pune"/>
+		</bean>
+		<bean class="com.cg.demo.Address">
+			<property name="addresssLine" value="Airoli"/>
+			<property name="city" value="Mumbai"/>
+		</bean>
+	</list> -->
+	
+	
+	<bean id="placeHolderConfig" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+	<property name="Location" value="classpath:data.properties"/>
+	</bean>
+	
+	<bean id="emp" class="com.cg.demo.Employee" autowire="byType">    <!-- autowiring -->
+		<property name="empid" value="${id}" />
+		<property name="ename" value="${name}" />
+		<!-- <property name="address" ref="address" /> -->
+		<property name="addressList">
+		<list>
+			<bean class="com.cg.demo.Address">
+				<property name="Address" value="Hinjewadi"/>
+				<property name="city" value="Pune"/>
+			</bean>
+			<bean class="com.cg.demo.Address">
+				<property name="Address" value="Airoli"/>
+				<property name="city" value="Mumbai"/>
+			</bean>
+		</list>
+		</property>
+	</bean>
+	 
+</beans>
